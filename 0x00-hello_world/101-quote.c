@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-char quo[] = "and that piece of art is useful\" - Dora korpar, Dora Korpar, 2015-10-19\n";
-write(1, quo, 59);
+char n[] = "and that piece of art is useful\" - Dora korpar, Dora Korpar, 2015-10-19\n";
+write(stderr, "%s\n", n);
 return (1);
 }
