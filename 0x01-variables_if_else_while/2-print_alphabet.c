@@ -1,21 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main - Entry point
- *
  * Description: prints all the alphabets in lower case
  *
- * Retrun: return all the alphabets
+ * Return: return all the alphabets
  */
 int main(void)
 {
-	char L;
+char c;
 
-	for (L = 'a'; L <= 'z'; L++)
-	{
-		putchar(L);
-	}
-	putchar('\n');
-	return (0);
+for (c = 'a'; c <= 'z'; ++c)
+{
+putchar(c);
+}
+putchar('\n');
+return (0);
 }
