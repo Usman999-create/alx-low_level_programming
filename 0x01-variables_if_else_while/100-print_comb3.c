@@ -25,9 +25,9 @@ int main(void)
 				putchar(a + '0');
 				putchar(b + '0');
 			}
-			b++
+			b++;
 		}
-		a++
+		a++;
 		b = 0;
 	}
 	putchar(10);
