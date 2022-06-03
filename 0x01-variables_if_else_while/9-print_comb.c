@@ -1,22 +1,24 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: prints all the alphabets in lower case
+ * main - function
  *
- * Return: return all the alphabets
+ * Return: end program
  */
 int main(void)
 {
-	int i = '0';
+int x = '0';
 
-	for (i = 0; i <= 10; i++)
-	{
-		putchar("%d", i);
-	{
-	putchar(',');
-	putchar('');
-	}
-	putchar("\n");
-	return (0);
-	}
+while (x <= '9')
+{
+putchar(x);
+if (x != '9')
+{
+putchar(',');
+putchar(' ');
+}
+x++;
+}
+
+putchar(10);
+return (0);
 }
