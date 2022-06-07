@@ -1,10 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - use putchar to print a to z alphabets
  *
- * Description: Write a function that prints 1-alphabet.c, in lowercase
- *
- * Return: return 0
  */
 void print_alphabet(void)
 {
@@ -16,5 +13,5 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 
-	return 0;
+	return (0);
 }
