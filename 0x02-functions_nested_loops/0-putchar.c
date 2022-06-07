@@ -1,17 +1,24 @@
-#include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 /**
  * main - Entry point
  *
- * Description: program that print -putchra
+ * Description: program that print -putchar
  *
  * Return: retrun 0
  */
 int main(void)
 {
-	char string[8] = "_putchar";
+	char word[8] = "_putchar";
+	int i;
 
+	for (i = 0; i < 8; i++)
+	{
 
-	printf("%s", string);
+	_putchar(word[i]);
+
+	}
+	_putchar("\n");
 
 	return (0);
 }
