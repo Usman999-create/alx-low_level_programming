@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: program that print -putchar
+ * code: prints out word _putchar, followed by new line.
  *
- * Return: retrun 0
+ * Return: retrun 0 = success
  */
 int main(void)
 {
@@ -18,7 +18,7 @@ int main(void)
 	_putchar(word[i]);
 
 	}
-	_putchar("\n");
+	_putchar('\n');
 
 	return (0);
 }
