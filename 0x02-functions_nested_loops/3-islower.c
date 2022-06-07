@@ -5,10 +5,11 @@
  */
 int _islower(int c)
 {
-
-	if (ch >= 97 && ch <= 122)
+	int r;
+	
+	if (r >= 97 && r <= 122)
 	{
-		_putchar(ch);
+		_putchar(1);
 	}
 	else 
 	{
