@@ -3,11 +3,11 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
+ **
  * Description: program that assign a random number n each time it is executed
  *
  * Return: return one of the 3 options
- */
+ **/
 int main(void)
 {
 	int n;
