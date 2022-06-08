@@ -40,5 +40,5 @@ void print_to_98(int n)
 			n++;
 		}
 	}
-	putchar("98");
+	putchar(98);
 }
