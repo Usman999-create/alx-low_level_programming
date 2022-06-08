@@ -1,8 +1,9 @@
 #include "main.h"
 /**
+ * _abs - function that computes the absolute
+ * @n: parameter of the funtion
  *
- *
- *
+ *Return: the absolute value
  */
 int _abs(int n)
 {
