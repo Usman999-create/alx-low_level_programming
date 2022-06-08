@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha - function to know if
+ * int _isalpha - 'c'
  * the character is a letter or not
  *
  * Return: Get 1 if it's a letter,
