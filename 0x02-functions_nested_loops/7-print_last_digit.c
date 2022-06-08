@@ -7,7 +7,7 @@
  */
 int print_last_digit(int n)
 {
-	int d = n % 20;
+	int d = n % 10;
 
 	if (d < o)
 	{
