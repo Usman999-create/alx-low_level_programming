@@ -10,35 +10,33 @@ void print_to_98(int n)
 {
 	int upper = 98;
 
-	if (n > upper)
+	if (n < upper)
+	{
+		while (n <= upper)
+		{
+			printf("%d", n);
+			if (n != upper)
+			{
+				printf(", ");
+			}
+			n++;
+		}
+	}
+	else if (n > upper)
 	{
 		while (n >= upper)
 		{
+			printf("%d", n);
 			if (n != upper)
 			{
-				printf("%d%s", n, "' ");
-			}
-			else
-			{
-				printf("%d", n);
+				printf(", ");
 			}
 			n--;
 		}
 	}
 	else
 	{
-		while (n <= upper)
-		{
-			if (n != upper)
-			{
-				printf("%d%s", n, ",");
-			}
-			else
-			{
-				printf("%d", n);
-			}
-			n++;
-		}
+		printf("98");
 	}
-	putchar(10);
+	printf("\n");
 }
