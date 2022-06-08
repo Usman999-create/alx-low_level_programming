@@ -8,33 +8,37 @@
  */
 void print_to_98(int n)
 {
-	if (n < 98)
+	int upper = 98;
+
+	if (n > upper)
 	{
-		while (n <= 98)
+		while (n >= upper)
 		{
-			printf("%d", n);
 			if (n != 98)
 			{
-				printf(",");
+				printf("%d%s", n, "' ");
 			}
-			n++;
-		}
-	}
-	else if (n > 98)
-	{
-		while (n >= 98)
-		{
-			printf("%d", n);
-			if (n != 98)
+			else
 			{
-				printf(",");
+				printf("%d", n);
 			}
 			n--;
 		}
 	}
 	else
 	{
-		printf("98");
+		while (n <= upper)
+		{
+			if (n != upper)
+			{
+				printf("%d%s", n, ", ");
+			}
+			else
+			{
+				printf("%d", n);
+			}
+			n++;
+		}
 	}
-	printf("\n");
+	putchar(10);
 }
