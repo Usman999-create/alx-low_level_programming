@@ -14,7 +14,7 @@ void print_to_98(int n)
 	{
 		while (n >= upper)
 		{
-			if (n != 98)
+			if (n != upper)
 			{
 				printf("%d%s", n, "' ");
 			}
