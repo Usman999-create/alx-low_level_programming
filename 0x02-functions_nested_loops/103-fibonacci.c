@@ -7,7 +7,7 @@
 int main(void)
 {
 	long int t1 = 0;
-	long intt2 = 1;
+	long int t2 = 1;
 	long int sumPrevTwo = 0;
 	long int sumEven = 0;
 	long int maxFibTerm = 4000000;
