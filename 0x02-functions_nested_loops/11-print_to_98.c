@@ -27,7 +27,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-		while (n <= upper)
+		while (n >= upper)
 		{
 			if (n != upper)
 			{
