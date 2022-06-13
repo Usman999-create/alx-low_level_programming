@@ -2,11 +2,15 @@
 #include "main.h"
 /**
  * _strlen - function
- * @s: parameter
+ * @s: parameter s
  *
- * Return: Always 0
+ * Return: return value n
  */
 int _strlen(char *s)
 {
-	*s = strlen;
+	int n;
+
+
+	for (s[n] = 'n'; s[n] != '\0'; n++)
+		return (n);
 }
