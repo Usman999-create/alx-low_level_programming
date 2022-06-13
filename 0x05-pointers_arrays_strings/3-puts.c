@@ -3,7 +3,7 @@
  * _puts - function
  * @str: parameter
  *
- * Return: Always 0
+ * Return: string
  */
 void _puts(char *str)
 {
