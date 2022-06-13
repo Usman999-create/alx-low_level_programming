@@ -8,10 +8,21 @@
  */
 int _atoi(char *s)
 {
-	char ch[] = "123";
-	int a = _atoi(ch);
+	char str[10] = "122";
+	int x = atoi(str);
 
+	printf("Converting '122': %d\n", x);
 
-	printf("%d", a);
+	char str2[10] = "Hello!";
+
+	x = atoi(str2);
+
+	printf("Converting 'Hello!': %d\n", x);
+
+	char str3[10] = "99Hello!";
+
+	x = atoi(str3);
+
+	printf("Converting '99Hello!': %d\n", x);
 	return (0);
 }
