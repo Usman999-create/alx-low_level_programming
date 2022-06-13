@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * _strlen - function
@@ -14,5 +13,6 @@ int _strlen(char *s)
 	{
 		n++
 	}
+
 	return (n);
 }
