@@ -8,8 +8,8 @@
  */
 int _atoi(char *s)
 {
-	char s[] = "123";
-	int a = atoi(s);
+	char ch[] = "123";
+	int a = _atoi(ch);
 
 
 	printf("%d", a);
