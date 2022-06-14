@@ -7,19 +7,18 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int _atoi(char *s)
 {
-	int s;
 
-	s = _atoi("4");
+	s = _atoi(4);
 	printf("%d\n", s);
-	s = _atoi("-402");
+	s = _atoi(-402);
 	printf("%d\n", s);
 	s = _atoi("          ------++++++-----+++++--98");
 	printf("%d\n", s);
-	s = _atoi("214748364");
+	s = _atoi(214748364);
 	printf("%d\n", s);
-	s = _atoi("0");
+	s = _atoi(0);
 	printf("%d\n", s);
 	s = _atoi("Suite 402");
 	printf("%d\n", s);
