@@ -7,23 +7,25 @@
  *
  * Return: Always 0.
  */
-int _atoi(char *s)
+int main(void)
 {
-	char str[10] = "122";
-	int x = atoi(str);
+	int s;
 
-	printf("Converting '122': %d\n", x);
-
-	char str2[10] = "Hello!";
-
-	x = atoi(str2);
-
-	printf("Converting 'Hello!': %d\n", x);
-
-	char str3[10] = "99Hello!";
-
-	x = atoi(str3);
-
-	printf("Converting '99Hello!': %d\n", x);
+	s = _atoi("4");
+	printf("%d\n", s);
+	s = _atoi("-402");
+	printf("%d\n", s);
+	s = _atoi("          ------++++++-----+++++--98");
+	printf("%d\n", s);
+	s = _atoi("214748364");
+	printf("%d\n", s);
+	s = _atoi("0");
+	printf("%d\n", s);
+	s = _atoi("Suite 402");
+	printf("%d\n", s);
+	s = _atoi("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA");
+	printf("%d\n", s);
+	s = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
+	printf("%d\n", s);
 	return (0);
 }
