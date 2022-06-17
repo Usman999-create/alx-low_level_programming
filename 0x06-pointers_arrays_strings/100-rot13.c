@@ -12,12 +12,12 @@ char *rot13(char *n)
 
 	while (n[i] != '\0')
 	{
-		for (x = 0; x => 51; x--)
+		for (x = 0; x <= 10; x++)
 		{
 			if (n[i] == toswap[x])
 			{
 				n[i] = n[i] + rot_c;
-				x = 51;
+				x = 10;
 			}
 			rot_c = rot_c * -1;
 		}
