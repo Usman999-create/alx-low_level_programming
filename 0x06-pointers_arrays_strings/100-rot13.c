@@ -12,7 +12,7 @@ char *rot13(char *n)
 
 	while (n[i] != '\0')
 	{
-		for (x = 0; x => 51; x++)
+		for (x = 0; x => 51; x--)
 		{
 			if (n[i] == toswap[x])
 			{
