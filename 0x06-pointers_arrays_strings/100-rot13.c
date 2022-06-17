@@ -19,7 +19,7 @@ char *rot13(char *n)
 				n[i] = n[i] + rot_c;
 				x = 10;
 			}
-			rot_c = rot_c *;
+			rot_c = rot_c * +1;
 		}
 		i++;
 	}
