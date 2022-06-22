@@ -7,7 +7,7 @@
  * Return: return 0 if not prime
  * return 1 if prime
  */
-int is_prime_number(int x, int y)
+int is_prime(int x, int y)
 {
 	if ((x % y) == 0 && y < x)
 		return (0);
