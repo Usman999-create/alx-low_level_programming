@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * is_prime - function
+ * is_prime - prime
  * @x: number
  * @y: number
  *
@@ -17,7 +17,7 @@ int is_prime_number(int x, int y)
 		return (is_prime(x, y + 1));
 }
 /**
- * is_prime_number - description
+ * is_prime_number - verifica si es numero primo
  * @n: verification number
  * Return: return 0 if prime
  * and 1 if prime
