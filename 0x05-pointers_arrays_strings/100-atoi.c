@@ -9,21 +9,18 @@
  */
 int _atoi(char *s)
 {
-	char str[10] = "122";
-	int x = atoi(str);
+	int sign = 1;
 
-	printf("converting '122': %d\n",x);
+	unsigned int num = 0;
 
-	char str2[10] = "Hello!";
+	do {
+		if (*s == '-')
+			sign *= -1;
+		else if (*s >= '0' && *s <= '9')
+			num = (num * 10) + (*s - '0');
+		else if (num > 0)
+			break;
+	} while (*s++);
 
-	x = atoi(str2);
-
-	printf("converting 'Hello!':%d\n", x);
-
-	char str3[10] = "99Hello!";
-
-	x = atoi(str3);
-
-	printf("converting '99Hello!':%d\n", x);
-	return (0);
+	return (num * sign);
 }
